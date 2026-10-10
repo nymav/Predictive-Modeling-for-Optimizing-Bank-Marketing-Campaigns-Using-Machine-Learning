@@ -1,10 +1,10 @@
-# 🏦 Bank Marketing Campaign - Term Deposit Prediction
+# Bank Marketing Campaign - Term Deposit Prediction
 
 A Machine Learning project that predicts whether a customer will subscribe to a term deposit, based on previous marketing campaign data. Developed for DS675 at NJIT.
 
-## 📁 Project Structure
+## Project Structure
 
-📦 Bank Campaign Response System/
+ Bank Campaign Response System/
 ├── final.ipynb
 ├── train.csv
 ├── test.csv
@@ -13,24 +13,24 @@ A Machine Learning project that predicts whether a customer will subscribe to a 
 │ ├── target_distribution.png
 │ └── feature_distributions.png
 
-## 🧠 Objective
+## Objective
 
 To optimize direct marketing campaigns by identifying clients likely to subscribe to term deposits using machine learning models and predictive analytics.
 
-## 📊 Dataset
+## Dataset
 
-- **Source:** UCI Machine Learning Repository  
-- **Instances:** 45,211 clients  
-- **Features:** 16 (client demographics, campaign info, call logs)  
+- **Source:** UCI Machine Learning Repository
+- **Instances:** 45,211 clients
+- **Features:** 16 (client demographics, campaign info, call logs)
 - **Target:** Binary (Subscribed: Yes/No)
 
-## 🧪 Exploratory Data Analysis
+## Exploratory Data Analysis
 
 - Strong class imbalance (88% NO vs 12% YES)
 - Moderate correlation between `duration`, `previous` and target
 - Visuals are stored in the `public/` folder
 
-## 🤖 Models Used
+## Models Used
 
 - Logistic Regression
 - SVM
@@ -38,31 +38,31 @@ To optimize direct marketing campaigns by identifying clients likely to subscrib
 - XGBoost
 - Neural Network
 
-### 📈 Best Performing Model
+### Best Performing Model
 
 **Random Forest**
-- Accuracy: 98%  
-- Precision: 95%  
-- Recall: 89%  
-- F1 Score: 92%  
+- Accuracy: 98%
+- Precision: 95%
+- Recall: 89%
+- F1 Score: 92%
 
-## 🧮 Evaluation Metrics
+## Evaluation Metrics
 
-- Accuracy, Precision, Recall, F1 Score  
-- AUC-ROC  
+- Accuracy, Precision, Recall, F1 Score
+- AUC-ROC
 - SHAP (planned for future analysis)
 
-## 🚀 Future Work
+## Future Work
 
 - Handle class imbalance using SMOTE
 - Deploy model via Streamlit or Flask
 - Visualize model explanations using SHAP
 
-## 👨‍💻 Author
+## Author
 
-- Nikhil Yarra  
+- Nikhil Yarra
 
-## 📸 Visualizations
+## Visualizations
 
 Found in `public/`:
 - `correlation_matrix.png`
@@ -71,5 +71,4 @@ Found in `public/`:
 
 ---
 
-Built with ❤️ using Python, Scikit-Learn, and Jupyter.
-
+Built with  using Python, Scikit-Learn, and Jupyter.
